@@ -8,7 +8,7 @@ export default function GamePage() {
     <div>
       <Hero imgData={gameImg}
         imgAlt="a baseball diamond in sunshine"
-        title="Games for [date]"
+        title="Games"
       ><Games /></Hero>
     </div>
   )
