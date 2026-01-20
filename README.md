@@ -48,7 +48,18 @@ src/
         └── web/            # Controllers (Driving Adapters)
             └── UserController.ts 
             
+```text
+InversifyJS: A powerful, lightweight IoC container for TypeScript and JavaScript apps. It uses decorators to define dependencies and is widely used when a robust, framework-agnostic solution is needed.
+tsyringe: A lightweight DI container for TypeScript maintained by Microsoft. It is often preferred for its simplicity and support for constructor injection.
+Awilix: An extremely powerful DI container for Node.js and the browser that doesn't rely on decorators, making it compatible with standard JavaScript.
+xInjection: A newer library specifically designed to bring Angular-style DI modules into React, built on top of InversifyJS.
+Obsidian: A DI framework for React and React Native developed by Wix, aimed at large-scale enterprise projects.
 ```
+## Roadmap
+
+the highest priority is to provide a hexagonal approach to yoking and wiring persistence level facilities -- to that end I'm evaluating patterns of use with:
+
+```bash
 
 ## Contributing
 
